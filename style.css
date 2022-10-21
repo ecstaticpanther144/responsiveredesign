@@ -1,0 +1,129 @@
+body {
+    background-color: #ffffff;
+}
+
+h2 {
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+
+.earth {
+    background: url(./images/world.jpg) center; /*image from https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.flickr.com%2Fphotos%2Fcayobo%2F9531314709&psig=AOvVaw3ikuFncFJ4OjUH-CFpdnxi&ust=1666324884352000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCMCm74j27foCFQAAAAAdAAAAABAD*/
+    height: 60vh;
+    width: 100%;
+    object-fit: cover;
+}
+
+.btn-info{
+    background-color: #D7F4F3;
+    stroke-width: 0px;
+}
+
+.resources {
+    background: url(./images/oldpage.jpg) center; /*image from https://www.google.com/url?sa=i&url=https%3A%2F%2Fpixnio.com%2Fobjects%2Fbooks%2Fpaper-page-book-document-text-poetry-antique-literature&psig=AOvVaw0PcHWWIYy4IuCcp-PBBDKe&ust=1666361832645000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCLCL6t3_7voCFQAAAAAdAAAAABAD*/
+    border-radius: 0.5rem;
+    height: 10rem;
+    width: 15rem;
+    object-fit: cover;
+}
+
+.ourresources{
+    background-color: #D7F4F3;
+    padding-bottom: 5rem;
+}
+
+.resources:hover{
+    filter: brightness(80%);
+}
+
+h5 { 
+    padding-bottom: 10rem;
+}
+
+.northamerica{
+    background: url(./images/northamerica.jpg) center; /*image from https://www.google.com/url?sa=i&url=https%3A%2F%2Floc.getarchive.net%2Fmedia%2Fa-map-of-north-america-1&psig=AOvVaw19mdqfbRVOSDtQ4DmD3Sf2&ust=1666372151345000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCMi_7LSm7_oCFQAAAAAdAAAAABAD*/
+    border-radius: 0.5rem;
+    height: 10rem;
+    width: 15rem;
+    object-fit: cover;
+}
+
+.northamerica:hover{
+    filter:brightness(80%);
+}
+
+.centralamerica{
+    background: url(./images/centralamerica.jpg) center; /*image from https://www.google.com/url?sa=i&url=https%3A%2F%2Fpicryl.com%2Fmedia%2Fmap-from-guatimala-or-the-united-provinces-of-central-america-in-1827-8-being-c41ca9&psig=AOvVaw3XJQjO2J9nvcPuZ9xPh-Lq&ust=1666372178666000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCLCYjqGm7_oCFQAAAAAdAAAAABAU*/
+    border-radius: 0.5rem;
+    height: 10rem;
+    width: 15rem;
+    object-fit: cover;
+}
+
+.centralamerica:hover{
+    filter: brightness(80%);
+}
+
+.southamerica{
+    background: url(./images/southamerica.jpg) center; /*image from https://www.google.com/url?sa=i&url=https%3A%2F%2Fpicryl.com%2Fmedia%2Fmap-of-south-america-according-to-the-latest-and-best-authorities&psig=AOvVaw2Y6avbn59d-yemo8NPYTp5&ust=1666372233021000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCOjt0rum7_oCFQAAAAAdAAAAABAD*/
+    border-radius: 0.5rem;
+    height: 10rem;
+    width: 15rem;
+    object-fit: cover;    
+}
+
+.southamerica:hover{
+    filter: brightness(80%);
+}
+
+.region{
+    background-color: #80C2D7;
+    padding-bottom: 5rem;
+}
+
+.other{
+    padding-bottom: 5rem;
+}
+
+.otherres{
+    background: url(./images/oldbook.jpg) center; /*image from https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.publicdomainpictures.net%2Fen%2Fview-image.php%3Fimage%3D1841%26picture%3Dold-book&psig=AOvVaw1uJOenDOVEvbzSqIbztTU4&ust=1666373343697000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCMj77Muq7_oCFQAAAAAdAAAAABAk*/
+    border-radius: 0.5rem;
+    height: 10rem;
+    width: 15rem;
+    object-fit: cover;
+}
+
+.otherres:hover{
+    filter: brightness(80%);
+}
+
+.row{
+    justify-content: center;
+    gap: 1rem;
+    align-items: center;
+    text-align: center;
+}
+
+.bottombar{
+    justify-content: center;
+    gap: 1rem;
+    align-items: center;
+}
+
+.navbaricon{
+    background: url(./images/menuicon.png); /*image from https://www.google.com/url?sa=i&url=https%3A%2F%2Ffreesvg.org%2Fmenu-icon-28851&psig=AOvVaw3I8VZg-Tx8P4uIOI9E08gB&ust=1666394554335000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCPiXps_57_oCFQAAAAAdAAAAABAD*/
+}
+
+/*following code to remove underlines in links was taken from https://blog.hubspot.com/website/remove-underline-from-links-css*/
+a:link { 
+    text-decoration: none; 
+}
+a:visited { 
+    text-decoration: none; 
+}
+a:hover { 
+    text-decoration: none; 
+}
+a:active { 
+    text-decoration: none; 
+}
